@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    username = input("Enter Name")
+    username = "Alexey"
     
     return "Flask inside Docker!!" + username
 
